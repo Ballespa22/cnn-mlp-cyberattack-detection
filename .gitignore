@@ -1,0 +1,255 @@
+/AUC_ROC_CNN.py
+/BD_analisis.py
+/BD_analisis2.py
+/BD_analisis3.py
+/BD_analisis4.py
+/BD_preprocesado_analisis.py
+/BD_preprocesado_multi.py
+/BD_preprocesado_multi2.py
+/BD_preprocesado_multi3.py
+/BD_preprocesado_multi4.py
+/BD_preprocesado_multi5.py
+/BD_preprocesado_multi_dsk.py
+/BD_preprocesar.py
+/best_model.keras
+/best_model_smoteenn_full.keras
+/best_model_smoteenn_sub.keras
+/best_model_smoteenn_sub_optimized.keras
+/best_model_smote_aggressive.keras
+/best_model_smote_aggressive_improved.keras
+/best_model_smote_final_optimized.keras
+/best_model_undersampling_smote.keras
+/CNN.py
+/CNN2.py
+/cnn_checkpoint_v7.h5
+/cnn_checkpoint_v7.keras
+/cnn_model_v10.h5
+/cnn_model_v7.h5
+/cnn_model_v7.keras
+/cnn_model_v8.h5
+/cnn_model_v9.h5
+/cnn_training_history_v10.png
+/cnn_training_history_v7.png
+/cnn_training_history_v8.png
+/cnn_training_history_v9.png
+/confusion_matrix_focal.png
+/confusion_matrix_focal_smoteenn_full.png
+/confusion_matrix_focal_smoteenn_sub.png
+/confusion_matrix_focal_smoteenn_sub_optimized.png
+/confusion_matrix_optimized_smote_v10.png
+/confusion_matrix_optimized_smote_v11.png
+/confusion_matrix_optimized_smote_v12.png
+/confusion_matrix_optimized_smote_v6.png
+/confusion_matrix_optimized_smote_v9.png
+/confusion_matrix_smote_aggressive.png
+/confusion_matrix_smote_aggressive_improved.png
+/confusion_matrix_smote_final_optimized.png
+/confusion_matrix_undersampling_smote.png
+/confusion_matrix_v10.png
+/confusion_matrix_v8.png
+/correlation_heatmap.png
+/correlation_heatmap_v7.png
+/correlation_report.txt
+/correlation_report_v7.txt
+/descriptive_stats_v7.csv
+/docs
+/eda_outputs
+/eda_visualizations
+/feature_columns.txt
+/feature_columns_v7.txt
+/Graficos
+/heatmap_class_0_v7.png
+/heatmap_class_10_v7.png
+/heatmap_class_11_v7.png
+/heatmap_class_12_v7.png
+/heatmap_class_1_v7.png
+/heatmap_class_2_v7.png
+/heatmap_class_3_v7.png
+/heatmap_class_4_v7.png
+/heatmap_class_5_v7.png
+/heatmap_class_6_v7.png
+/heatmap_class_8_v7.png
+/heatmap_class_9_v7.png
+/label_encoder_ACK Flag Cnt.pkl
+/label_encoder_ACK_Flag_Cnt.pkl
+/label_encoder_Active Max.pkl
+/label_encoder_Active Mean.pkl
+/label_encoder_Active Min.pkl
+/label_encoder_Active Std.pkl
+/label_encoder_Bwd Blk Rate Avg.pkl
+/label_encoder_Bwd Header Len.pkl
+/label_encoder_Bwd IAT Max.pkl
+/label_encoder_Bwd IAT Mean.pkl
+/label_encoder_Bwd IAT Min.pkl
+/label_encoder_Bwd IAT Std.pkl
+/label_encoder_Bwd IAT Tot.pkl
+/label_encoder_Bwd Pkt Len Max.pkl
+/label_encoder_Bwd Pkt Len Mean.pkl
+/label_encoder_Bwd Pkt Len Min.pkl
+/label_encoder_Bwd Pkt Len Std.pkl
+/label_encoder_Bwd PSH Flags.pkl
+/label_encoder_Bwd Seg Size Avg.pkl
+/label_encoder_Bwd URG Flags.pkl
+/label_encoder_Bwd_PSH_Flags.pkl
+/label_encoder_Bwd_URG_Flags.pkl
+/label_encoder_CWE Flag Count.pkl
+/label_encoder_CWE_Flag_Count.pkl
+/label_encoder_Dst IP.pkl
+/label_encoder_Dst Port.pkl
+/label_encoder_ECE Flag Cnt.pkl
+/label_encoder_ECE_Flag_Cnt.pkl
+/label_encoder_FIN Flag Cnt.pkl
+/label_encoder_FIN_Flag_Cnt.pkl
+/label_encoder_Flow Duration.pkl
+/label_encoder_Flow IAT Max.pkl
+/label_encoder_Flow IAT Mean.pkl
+/label_encoder_Flow IAT Min.pkl
+/label_encoder_Flow IAT Std.pkl
+/label_encoder_Fwd Act Data Pkts.pkl
+/label_encoder_Fwd Blk Rate Avg.pkl
+/label_encoder_Fwd Header Len.pkl
+/label_encoder_Fwd IAT Max.pkl
+/label_encoder_Fwd IAT Mean.pkl
+/label_encoder_Fwd IAT Min.pkl
+/label_encoder_Fwd IAT Std.pkl
+/label_encoder_Fwd IAT Tot.pkl
+/label_encoder_Fwd Pkt Len Max.pkl
+/label_encoder_Fwd Pkt Len Mean.pkl
+/label_encoder_Fwd Pkt Len Min.pkl
+/label_encoder_Fwd Pkt Len Std.pkl
+/label_encoder_Fwd PSH Flags.pkl
+/label_encoder_Fwd Seg Size Avg.pkl
+/label_encoder_Fwd Seg Size Min.pkl
+/label_encoder_Fwd URG Flags.pkl
+/label_encoder_Fwd_PSH_Flags.pkl
+/label_encoder_Fwd_URG_Flags.pkl
+/label_encoder_Idle Max.pkl
+/label_encoder_Idle Mean.pkl
+/label_encoder_Idle Min.pkl
+/label_encoder_Idle Std.pkl
+/label_encoder_Init Bwd Win Byts.pkl
+/label_encoder_Init Fwd Win Byts.pkl
+/label_encoder_multiclass.pkl
+/label_encoder_multiclass_v7.pkl
+/label_encoder_Pkt Len Max.pkl
+/label_encoder_Pkt Len Mean.pkl
+/label_encoder_Pkt Len Min.pkl
+/label_encoder_Pkt Len Std.pkl
+/label_encoder_Pkt Len Var.pkl
+/label_encoder_Pkt Size Avg.pkl
+/label_encoder_Protocol.pkl
+/label_encoder_Protocol_v7.pkl
+/label_encoder_PSH Flag Cnt.pkl
+/label_encoder_PSH_Flag_Cnt.pkl
+/label_encoder_RST Flag Cnt.pkl
+/label_encoder_RST_Flag_Cnt.pkl
+/label_encoder_Src IP.pkl
+/label_encoder_Subflow Bwd Byts.pkl
+/label_encoder_Subflow Bwd Pkts.pkl
+/label_encoder_Subflow Fwd Byts.pkl
+/label_encoder_Subflow Fwd Pkts.pkl
+/label_encoder_SYN Flag Cnt.pkl
+/label_encoder_SYN_Flag_Cnt.pkl
+/label_encoder_Tot Bwd Pkts.pkl
+/label_encoder_Tot Fwd Pkts.pkl
+/label_encoder_TotLen Bwd Pkts.pkl
+/label_encoder_TotLen Fwd Pkts.pkl
+/label_encoder_URG Flag Cnt.pkl
+/label_encoder_URG_Flag_Cnt.pkl
+/logoUAMw.png
+/MLP.py
+/MLP2.py
+/MLP2_dsk.py
+/MLP2_mejorado2.py
+/MLP2_mejorar.py
+/MLP3.py
+/mlp_best_model.keras
+/mlp_confusion_matrix.png
+/mlp_confusion_matrix_optimized.png
+/mlp_confusion_matrix_optimized_focal_adjusted.png
+/mlp_confusion_matrix_optimized_no_focal.png
+/mlp_confusion_matrix_optimized_smote.png
+/mlp_confusion_matrix_optimized_smote_v2.png
+/mlp_confusion_matrix_optimized_smote_v3.png
+/mlp_final_model.keras
+/mlp_improved_best_model.keras
+/mlp_improved_final_model.keras
+/mlp_model_focal.keras
+/mlp_model_focal_smoteenn_full.keras
+/mlp_model_focal_smoteenn_sub.keras
+/mlp_model_focal_smoteenn_sub_optimized.keras
+/mlp_model_optimized_focal_adjusted.h5
+/mlp_model_optimized_no_focal.h5
+/mlp_model_optimized_smote.h5
+/mlp_model_optimized_smote.keras
+/mlp_model_optimized_smote_v10.keras
+/mlp_model_optimized_smote_v11.keras
+/mlp_model_optimized_smote_v12.keras
+/mlp_model_optimized_smote_v2.keras
+/mlp_model_optimized_smote_v3.keras
+/mlp_model_optimized_smote_v6.h5
+/mlp_model_optimized_smote_v9.keras
+/mlp_model_smote_aggressive.keras
+/mlp_model_smote_aggressive_improved.keras
+/mlp_model_smote_final_optimized.keras
+/mlp_model_undersampling_smote.keras
+/MLP_one_hot.py
+/MLP_SMOTEEN.py
+/mlp_smote_best_model.keras
+/mlp_smote_final_model.keras
+/mlp_smote_focal_best_model.keras
+/mlp_smote_focal_final_model.keras
+/mlp_training_history.png
+/mlp_training_history_optimized.png
+/mlp_training_history_optimized_focal_adjusted.png
+/mlp_training_history_optimized_no_focal.png
+/mlp_training_history_optimized_smote.png
+/mlp_training_history_optimized_smote_v10.png
+/mlp_training_history_optimized_smote_v11.png
+/mlp_training_history_optimized_smote_v12.png
+/mlp_training_history_optimized_smote_v2.png
+/mlp_training_history_optimized_smote_v3.png
+/mlp_training_history_optimized_smote_v6.png
+/mlp_training_history_optimized_smote_v9.png
+/Original Network Traffic and Log data
+/plots
+/PresentacionTFG2.pptx
+/Processed
+/scaler.pkl
+/scaler_v7.pkl
+/schedule.csv
+/TFG-Info.docx
+/training_curves_focal.png
+/training_curves_focal_smoteenn_full.png
+/training_curves_focal_smoteenn_sub.png
+/training_curves_focal_smoteenn_sub_optimized.png
+/training_curves_smote_aggressive.png
+/training_curves_smote_aggressive_improved.png
+/training_curves_smote_final_optimized.png
+/training_curves_undersampling_smote.png
+/training_log.csv
+/venv
+/X_test.npy
+/X_test_cnn.npy
+/X_test_cnn_v7.npy
+/X_test_heatmap_v7.npy
+/X_test_v7.npy
+/X_train.npy
+/X_train_cnn.npy
+/X_train_cnn_v7.npy
+/X_train_heatmap_v7.npy
+/X_train_v7.npy
+/X_val.npy
+/X_val_cnn.npy
+/X_val_cnn_v7.npy
+/X_val_heatmap_v7.npy
+/X_val_v7.npy
+/y_test.npy
+/y_test_cnn_v7.npy
+/y_test_v7.npy
+/y_train.npy
+/y_train_cnn_v7.npy
+/y_train_v7.npy
+/y_val.npy
+/y_val_cnn_v7.npy
+/y_val_v7.npy
